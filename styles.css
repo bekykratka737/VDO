@@ -1,0 +1,183 @@
+* {
+    font-family: "Fira Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #b400cc;
+    width: 100vw;
+    gap: 2vh;
+}
+.top {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #290028;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -1vw;
+    margin: left -10vw;
+    padding: 1.5vw;
+    padding-left: 1.5vw;
+    position: fixed;
+
+}
+.top-left {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: left;
+}
+.top-right {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: right;
+}   
+
+.top-logo {
+    display: flex;
+}
+.top-title {
+    display: flex;
+    color: #fffbb3;
+}
+.top-subtitle {
+    display: flex;
+    margin-left: 1vw;
+    color: #fffbb3;
+    align-items: left;
+}
+.top-kosik {
+    display: flex;
+    height: 10vh;
+    color: #fffbb3; 
+    margin-left: 17vw;
+}
+
+
+.headerig {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vw;
+    gap: 5vw;
+    margin-top: 10vh;
+    position: relative;
+}
+.headermaintext {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 5vw;
+    height: 50vh;
+}
+.headermaintex2 {
+    display: flex;
+    font-size: 6vh;
+    margin-top: 10vh;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 1vw;
+}
+.headermaintext3 {
+    display: flex;
+    width: 100%;
+    align-items: left;
+    height: 10vh;
+    background-color: #290028;
+    color: #fffbb3;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 1.5vw;
+    margin:1.5vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 3vh;
+}
+.headerimage {
+    display: flex;
+    flex-direction: column;
+    flex: 0.9;
+    display: flex;
+    flex: 1;
+    align-items: right;
+    margin-right: 5vw;
+    background-color: #ffe229;
+    margin: 5vw;
+    border-radius: 10px;
+    border: none;
+    height: 47vh;
+    padding: 2vw;
+}
+
+#CONABIZIME
+.conabizimeee {
+     display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60vw;
+    gap: 5vw;
+    position: relative;
+}
+.conabizimetext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.conabizime {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.obrazkyconabizime {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 20vw;
+    gap: 5vw;
+}
+.obrreklamniprodukty {
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+    width: 100%;
+    height: 20vw;
+    background-color: #ffe229;
+    border-radius: 10px;
+    border: none;
+}
+.obrmarketingovychsluzeb {
+    display: flex;
+    flex: 0.7;
+    flex-direction: column;
+    width: 100%;
+    height: 20vw;
+    background-color: #ffe229;
+    border-radius: 10px;
+    border: none;
+}   
+
+
+.footer {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #290028;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -1vw;
+    margin: left -10vw;
+    padding: 1.5vw;
+    padding-left: 1.5vw;
+    position: relative
+
+}
+.footertext {
+    display: flex;
+    color: #fffbb3;
+}
